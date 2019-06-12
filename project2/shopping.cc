@@ -2,12 +2,12 @@
 #include "./shopping.h"
 
 // Push Goods object to shopping_list_ vector
-void Shopping::PushList(Goods object) {
+void Shopping::PushList(const Goods& object) {
   shopping_list_.push_back(object);
 }
 
 // Get Goods object from end of shopping_list_ vector
-Goods Shopping::GetLastElement() {
+const Goods Shopping::GetLastElement() {
   return shopping_list_.back();
 }
 
