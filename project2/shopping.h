@@ -2,6 +2,7 @@
 #define SHOPPING_H_
 
 #include <vector>
+
 #include "./goods.h"
 
 // Shopping class presents List of shopping.
